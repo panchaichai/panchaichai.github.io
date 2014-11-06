@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Twitter Bootstrap</title>
+    
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Top 10 Univ.</a>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scene<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./univ/PKU.html">Peking Univ.</a></li>
+                            <li><a href="./univ/THU.html">Tsinghua Univ.</a></li>
+                            <li><a href="./univ/RMU.html">Renmin Univ.</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Carousel
+    ======================================-->
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/pku/1.gif"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Kun Lun View</h1>
+                        <p>This pic was downloaded from the web.</p>
+                        <p><a class="btn btn-large btn-primary">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/pku/2.jpg"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Kun Lun View</h1>
+                        <p>This pic was downloaded from the web.</p>
+                        <p><a class="btn btn-large btn-primary">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/chun.png"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Kun Lun View</h1>
+                        <p>This pic was downloaded from the web.</p>
+                        <p><a class="btn btn-large btn-primary">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/chun2.png"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Kun Lun View</h1>
+                        <p>This pic was downloaded from the web.</p>
+                        <p><a class="btn btn-large btn-primary">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        
+    </div>
+    
+    <!-- Grid
+    =====================================-->
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p> Some text will go here. Some text will go here. Some text will go here. Some text will go here.</p>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p> Some text will go here. Some text will go here. Some text will go here. Some text will go here.</p>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p> Some text will go here. Some text will go here. Some text will go here. Some text will go here.</p>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Font Awesome Icons
+    ===================================-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer and Modal
+    ====================================-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+                <p> Copyright &copy; Creativity Tuts.
+                    <a data-toggle="modal" href="#myModal">Terms and Conditions</a>
+                </p>
+                
+                <!-- modal -->
+                <div class="modal fade" id="myModal" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Terms and Conditions</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>The text will go here....</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="../js/jquery-1.11.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+</body>
+</html>
