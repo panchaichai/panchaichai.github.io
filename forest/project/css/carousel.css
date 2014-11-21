@@ -8,7 +8,14 @@ body {
 }
 
 
-
+p.lead {
+  text-indent:2em;
+  font-size: 16px
+}
+a.more{
+  text-decoration: none;
+  color: #7E7E7E
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -84,7 +91,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 18px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -127,12 +134,12 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 10px;
   }
 }
