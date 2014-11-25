@@ -1,0 +1,21 @@
+.col-md-5 {
+    float: left;
+    width: 30%;
+}
+.col-md-7 {
+    width: 70%;
+    float: left;
+}
+h2.featurette-heading {
+    margin-bottom: 0.6em;
+}
+.table-1 {
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border-radius: 5px;
+    border: 1px solid #afd0e1;
+    background-color: #E2DAE9;
+
+}

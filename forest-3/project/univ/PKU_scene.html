@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Twitter Bootstrap</title>
+    
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Top 10 Univ.</a>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Official<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">In a mess</a></li>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Students<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pea</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="PKU_product.html">PVC Resin</a></li>
+                            <li><a href="#">CPVC Resin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/pku/1.gif" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Weiming Lake.</h1>
+                  <p>The Weiming Lake is one of the landmarks in Peking University. It lies in north of the campus and is one the two elements of "Yi Ta Hu Tu" along with the Boya Tower.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/pku/2.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>The west gate.</h1>
+                  <p>This gate is inherited from the gate of Yanjing University and also is one of the landmarks of Peking University. This gate appears in many teaching materials of high schools.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div><!-- /.carousel -->
+    </div>
+    
+    <div class="container">
+        <div class="presentazione">
+            <h2>General Information</h2>
+            <p>Peking University is a comprehensive and national key university. The campus, known as "Yan Yuan"(the garden of Yan),is situated at Haidian District in the western suburb of Beijing, with a total area of 2,743,532 square metres (or 274 hectares). It stands near to the Yuanmingyuan Garden and the Summer Palace.</p>
+            <p>Peking University is proud of its outstanding faculty, including 53 members of the Chinese Academy of Sciences (CAS), 7 members of the Chinese Academy of Engineering (CAE), and 14 members of the Third World Academy of Sciences (TWAS).</p>
+            <p>The university has effectively combined research on important scientific subjects with the training of personnel with a high level of specialized knowledge and professional skill as demanded by the country's socialist modernization. It strives not only for improvements in teaching and research work, but also for the promotion of interaction and mutual promotion among various disciplines.  </p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="tabbable">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+                <p>I'm in Section1.</p>
+            </div>
+            <div class="tab-pane fade" id="tab2">
+                <p>Howdy, I'm in Section 2.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <footer>
+            <address>
+                <strong>Peking Univ.</strong><br>
+                No.5 Yiheyuan Road.<br>
+                Beijing, China, 100871<br>
+            </address>
+        </footer>
+    </div>
+    
+    
+    <script src="../js/jquery-1.11.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    
+</body>
+</html>
