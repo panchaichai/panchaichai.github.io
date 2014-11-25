@@ -9,7 +9,7 @@ var lbmc;
 }
  
 function ShowFLT(i) {
-    lbmc = eval('LM' + i);
+    lbmc = eval('LM' + i)[i];
     if (lbmc.style.display == 'none') {
         LMYC();
         lbmc.style.display = '';
