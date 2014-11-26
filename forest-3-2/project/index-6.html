@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://localhost/project%203/project/index-5.html -->
+<html class=" js rgba boxshadow csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>国家林业局经济发展研究中心</title>
+    <script type="text/javascript" src="js/jquery.js" id="jquery"></script>
+    <link type="text/css" rel="stylesheet" href="css/screen.css">
+    <link type="text/css" rel="stylesheet" href="css/cqu.css">
+    <link type="text/css" rel="stylesheet" href="css/inspector.css">
+    <script type="text/javascript" src="js/home.js" id="myscript"></script>
+    <link type="text/css" rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen">
+    <script src="js/modernizr.js"></script>
+    <style>
+    </style>
+
+	
+</head>
+<body>
+<div style="width: 100%; text-align: center; background-color: #E2D7BB">
+    <div id="ajax-loader">
+        <img src="img/ajax-loader.gif>
+    </div>
+    <div style="position: relative; margin: 10px auto 0 auto; display: block; width: 940px; text-align: right;">
+        <a href="/public/search">Search</a>
+        <a href="/en/index">English</a>
+    </div>
+    <div style="text-align: center; margin-top: -2.5em; margin-bottom: -3px; padding-bottom: 0">
+        <img style="border: 0px solid #B49E64; border-width: 0 2px 0px 2px; margin-bottom: 0" width="980" src="img/index/QQ1.png">
+    </div>
+    <div style="width: 100%; background-color: #670C75; height: 38px; text-align: center; clear: both" id="mainmenu">
+        <div style="position: relative; margin: 0 auto 0 auto; display: block; width: 960px;">
+            <a href="http://localhost/" class="topMemu">首页</a><a href="http://localhost/public/xygk/index" class="topMemu">项目</a><a href="http://localhost/public/szdw/index" class="topMemu">人员</a><a href="http://localhost/public/jyjx/index" class="topMemu">关于</a><a href="http://localhost/public/kxyj/index" class="topMemu">联系我们</a>
+        </div>
+    </div>
+</div>
+<div style="overflow: hidden; border: 3px solid #B49E64; border-width: 0 2px 2px 2px;" class="mainbg">
+    <div style="height: 8px" class="column span-24 last"></div>
+    <div id="main">
+<div alt="下半部第一行" style="width: 100%; text-align: center" class="column span-24 last">
+<div alt="" title="首页" id="page_nav_index"></div>
+
+<div class="span-17" style="position: relative; float: left; width: 940px; border: 1px solid #A386B6; margin-bottom: -5px; margin-right: 0px; padding: 2px 2px 2px 2px" alt="图片轮播">
+    <div style="position: relative; float: left; width: 650px; border: 1px solid #A386B6;" id="banner">
+    <div id="main" class="container theme-showcase" role="main">
+        <section class="slider">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                <img src="img/index/top1.jpg" />
+                </li>
+                <li>
+                <img src="img/index/top1.jpg" />
+                </li>
+                <li>
+                <img src="img/index/top1.jpg" />
+                </li>
+                <li>
+                <img src="img/index/top1.jpg" />
+                </li>
+            </ul>
+        </div>
+    </section>
+    </div>
+    </div>
+    <div style="position: relative; float: left; width: 280px; text-align: justify; margin-left: 5px; margin-top: 0px; font-size: 13px;height: 300px;" id="ctrl">
+    <div alt="公告层" style="width: 277px; background-color: #E2DAE9; border-color: #A386B6;height: 298px;" class="span-6 note"> <div class="content" style="padding: 10px">
+<p class="lead">国家林业局经济发展研究中心是中央机构编制委员会办公室批准成立的（原林业部）直属的正司级事业单位（中编办[1994] 259号文），是独立的事业法人，是为林业宏观决策服务的咨询研究机构。其主要职责是围绕林业发展和改革中的全局性、根本性、综合性、战略性、前瞻性问题开展跟踪研究和超前研究，为国家林业局提供政策建议和咨询意见，为国家制定林业中长期发展规划和发展政策提出建议；接受委托参与或组织对有关部门和地区拟订的林业发展规划、林业工程项目等进行研究、论证评估，提出意见和建议；负责国家林业重点工程社会经济效益测报工作。  <a class="more" href="1.html#floor1">[详细介绍]</a> </p>
+</div>
+    </div>
+    </div>
+
+    <script language="javascript">
+        $(function () {
+            var index = 1;
+            $("#tips div").mouseover(function () {
+                index = $("#tips div").index(this);
+                showImg(index);
+            });
+            //滑入 停止动画，滑出开始动画.
+            $('#img img').hover(function () {
+                if (MyTime) {
+                    clearInterval(MyTime);
+                }
+            }, function () {
+                showImg(index)
+                MyTime = setInterval(function () {
+                    index++;
+                    if (index == 5) {
+                        index = 0;
+                    }
+                    showImg(index)
+                }, 10000);
+            });
+            //自动开始
+            $("#tips span").eq(0).addClass("hov")
+            showImg(0)
+            var MyTime = setInterval(function () {
+                showImg(index)
+                index++;
+                if (index == 5) {
+                    index = 0;
+                }
+            }, 10000);
+        })
+        //关键函数：通过控制i ，来显示不同的幻灯片
+        function showImg(i) {
+            $("#img img").eq(i).stop(true, true)
+                    .fadeIn(2000).parent()
+                    .siblings().find("img").hide();
+            $("#tips span").each(function (i) {
+                $(this).removeClass("hov");
+            });
+            $("#tips span").eq(i).addClass("hov")
+        }
+    </script>
+</div>
+
+
+
+
+
+</div>
+    <div alt="下半部第二行" style="width: 100%; text-align: center" class="column span-24 last">
+    <div style="height: 8px" class="column span-24 last"></div>
+    <div alt="" title="首页" id="page_nav_index"></div>
+
+<div class="span-17" style="position: relative; float: left; width: 940px; border: 1px solid #A386B6; margin-bottom: -5px; margin-right: 0px; padding: 2px 2px 2px 2px" alt="图片轮播">
+    <div class="container" style="margin-bottom: 0.75em;">
+      <div class="presentazione" style="width: 940px;height: 36px;">
+        <h2 style="font-family: 'Microsoft Yahei', Simsun; font-size: 14px; padding-top: 7px; color:#FFFFFF; ">林权流转研究题目</h2>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="table" >
+    <div alt="公告层" style="background-color: #E2DAE9; border-color: #A386B6; " class="table-1">
+    <table>
+        <tr class="title">
+            <td>
+                <a href="#">项目</a>
+            </td>
+            <td>
+                <a href="#">进度</a>
+            </td>
+            <td>
+                <a href="#">人员</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <div class="scrollpic">
+    <div id="myscroll">
+        <div id="myscrollbox">
+            <ul>
+                <li><a href="#"><span class="intro"><h5>林改后农户承包林地基本情况评析</h5><p>基于国家林业局集体林权制度改革监测小组2013年对我国福建、甘肃、湖南、江西、辽宁、陕西和云南7个省份农户抽样调查的数据，本文对样本内农户林地承包情况、林权证发放情况、林地流转现状进行了统计描述。结果发现，几个省份林地承包到户的任务基本完成，但林权证的发放不到位，20%农户没拿到林权证，且在某些地区有集中。林地流转率低，只有7%左右，流转方式传统，统一价格市场未形成。文章针对家庭林地现状，提出了完善确权工作、促进林权流转、加大宣传教育的建议。</p></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">田文佳</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林农收入差异的来源</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">赵锦勇</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转主要形式及案例分析</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转的主要特点</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林权流转市场、政策及法律建设</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">影响农户林权流转意愿的因素分解</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">续继</a>
+            </td>
+        </tr>                
+    </table>
+    </div>
+    <hr class="featurette-divider">
+    <div alt="公告层" style="background-color: #E2DAE9; border-color: #A386B6; " class="table-1">
+    <table>
+        <tr class="title">
+            <td>
+                <a href="#">项目</a>
+            </td>
+            <td>
+                <a href="#">进度</a>
+            </td>
+            <td>
+                <a href="#">人员</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">集体林改后农户承包林地基本情况</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">田文佳</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林农收入差异的来源</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">赵锦勇</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转主要形式及案例分析</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转的主要特点</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林权流转市场、政策及法律建设</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">影响农户林权流转意愿的因素分解</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">续继</a>
+            </td>
+        </tr>                
+    </table>
+    </div>
+    <hr class="featurette-divider">
+    <div alt="公告层" style="background-color: #E2DAE9; border-color: #A386B6; " class="table-1">
+    <table>
+        <tr class="title">
+            <td>
+                <a href="#">项目</a>
+            </td>
+            <td>
+                <a href="#">进度</a>
+            </td>
+            <td>
+                <a href="#">人员</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">集体林改后农户承包林地基本情况</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">田文佳</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林农收入差异的来源</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">赵锦勇</a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转主要形式及案例分析</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">我国林权流转的主要特点</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">林权流转市场、政策及法律建设</a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+            <td>
+                <a href="#"></a>
+            </td>
+        </tr>
+        <tr class="tr_content">
+            <td>
+                <a href="#">影响农户林权流转意愿的因素分解</a>
+            </td>
+            <td>
+                <a href="#">已完成</a>
+            </td>
+            <td>
+                <a href="#">续继</a>
+            </td>
+        </tr>                
+    </table>
+    </div>
+    </div>
+
+</div>
+</div>
+</div>
+    <div style="height: 10px" class="column span-24 last"></div>
+    <div style="height: 8px" class="column span-24 last"></div>
+    <hr>
+    <div style="text-align: center; margin-bottom: 30px" class="column span-24 last">
+        Copyright © 2012 重庆大学计算机学院 All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 通信地址：重庆市沙坪坝区沙正街174号
+        重庆大学计算机学院 邮政编码：400044
+    </div>
+</div>
+
+<script src="js/liftAjax.js" type="text/javascript"></script>
+
+	
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function() {liftAjax.lift_successRegisterGC();});
+var lift_page = "F1401930102125F1R30B";
+// ]]>
+</script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- FlexSlider -->
+    <script defer="" src="../jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+        });
+      });
+    </script>
+
+
+    <!-- Syntax Highlighter -->
+    <script type="text/javascript" src="js/shCore.js"></script>
+    <script type="text/javascript" src="js/shBrushXml.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+    <!-- Optional FlexSlider Additions -->
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script defer="" src="js/demo.js"></script>
+  
+  </body></html>
