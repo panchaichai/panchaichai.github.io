@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 * { margin:0; padding:0; font-size:12px}
 a{ text-decoration:none}
 body{ text-align:center; background-color: #f0f0f0}
@@ -38,7 +38,7 @@ ul{
 -padding-start: 0px;
 }
 
-ul.sis-li li .v1{/* display: block; */float:left;/*width: 195px; */position:relative; height: 480px; color:#7F7F7F}
+ul.sis-li li .v1{/* display: block; */float:left;/*width: 195px; */ position:relative; height: 480px; color:#7F7F7F}
 ul.sis-li li .v2{ padding-top:6px; width:100%; float:left; overflow:hidden}
 ul.sis-li li .v1 img{ width: 195px; position:absolute; left:0; top:0; z-index:5; height: 480px;}
 ul.sis-li li .v1 .div{ width: 171px; position:absolute; z-index: 10; background: #614848; FILTER:alpha(opacity=60); opacity:0.7; -moz-opacity:0.7; /* left:10px; */ bottom: 0.00001px; height: 450px; float:left; text-align:left; padding: 0px 12px 0 12px;}
