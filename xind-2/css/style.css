@@ -12,7 +12,33 @@ ul.sis-li li{  -webkit-transition: padding .5s ease 0s;
   -moz-transition: padding .5s ease 0s;
   transition: padding .5s ease 0s;
   }
-ul.sis-li li .v1{/* display: block; */float:left;width: 195px; position:relative; height: 480px; color:#7F7F7F}
+ul{
+	-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+
+-o-margin-before: 0em;
+-o-margin-after: 0em;
+-o-margin-start: 0px;
+-o-margin-end: 0px;
+-o-padding-start: 0px;
+
+-moz-margin-before: 0em;
+-moz-margin-after: 0em;
+-moz-margin-start: 0px;
+-moz-margin-end: 0px;
+-moz-padding-start: 0px;
+
+-margin-before: 0em;
+-margin-after: 0em;
+-margin-start: 0px;
+-margin-end: 0px;
+-padding-start: 0px;
+}
+
+ul.sis-li li .v1{/* display: block; */float:left;/*width: 195px; */position:relative; height: 480px; color:#7F7F7F}
 ul.sis-li li .v2{ padding-top:6px; width:100%; float:left; overflow:hidden}
 ul.sis-li li .v1 img{ width: 195px; position:absolute; left:0; top:0; z-index:5; height: 480px;}
 ul.sis-li li .v1 .div{ width: 171px; position:absolute; z-index: 10; background: #614848; FILTER:alpha(opacity=60); opacity:0.7; -moz-opacity:0.7; /* left:10px; */ bottom: 0.00001px; height: 450px; float:left; text-align:left; padding: 0px 12px 0 12px;}
