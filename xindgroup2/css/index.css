@@ -1,0 +1,198 @@
+#main {
+	HEIGHT: 677px; WIDTH: 1002px; MARGIN: 0px auto
+}
+.banner {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 29px; HEIGHT: 350px; WIDTH: 1002px
+}
+.mains {
+	HEIGHT: 267px; WIDTH: 1002px
+}
+.news {
+	OVERFLOW: hidden; HEIGHT: 267px; WIDTH: 287px; FLOAT: left
+}
+.news A:hover {
+	COLOR: #00578c
+}
+.news H2 {
+	FONT-SIZE: 14px; HEIGHT: 30px; FONT-WEIGHT: 500; COLOR: #010000
+}
+.news H2 SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000
+}
+.news DL {
+	HEIGHT: 79px; WIDTH: 287px; BACKGROUND: #fcfcfc; FLOAT: left
+}
+.news DL DT {
+	BORDER-TOP: #e5e5e5 1px solid; HEIGHT: 77px; BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 120px; BORDER-BOTTOM: #e5e5e5 1px solid; FLOAT: left; BORDER-LEFT: #e5e5e5 1px solid; MARGIN-RIGHT: 12px
+}
+.news DL DD {
+	WIDTH: 153px; FLOAT: left
+}
+.news DL DD A {
+	COLOR: #000
+}
+.news DL .one {
+	HEIGHT: 22px; FONT-WEIGHT: 600; LINE-HEIGHT: 22px
+}
+.news DL .two {
+	LINE-HEIGHT: 18px
+}
+.news UL {
+	OVERFLOW: hidden; HEIGHT: 78px; MARGIN-TOP: 13px
+}
+.news UL LI {
+	HEIGHT: 25px; WIDTH: 277px; BACKGROUND: url(../img/dian.jpg) no-repeat 1px 50%; BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-LEFT: 10px; LINE-HEIGHT: 25px
+}
+.news UL LI A {
+	COLOR: #000
+}
+.news UL LI SPAN {
+	FLOAT: right; COLOR: #878787; DISPLAY: inline; PADDING-RIGHT: 2px
+}
+.more {
+	HEIGHT: 18px; WIDTH: 83px; BACKGROUND: url(../img/more.jpg) no-repeat; MARGIN-TOP: 18px; DISPLAY: block; LINE-HEIGHT: 18px
+}
+.more A {
+	COLOR: #fff; PADDING-LEFT: 11px
+}
+.more A:hover {
+	COLOR: #00578c
+}
+.newtab {
+	OVERFLOW: hidden; HEIGHT: 79px; WIDTH: 287px; POSITION: relative
+}
+.newtab2 {
+	HEIGHT: 79px; WIDTH: 10000px; BACKGROUND: #fcfcfc
+}
+.up {
+	CURSOR: pointer; HEIGHT: 10px; WIDTH: 10px; BACKGROUND: url(../img/up.jpg) no-repeat; POSITION: absolute; LEFT: 185px; TOP: 60px
+}
+.down {
+	CURSOR: pointer; HEIGHT: 10px; WIDTH: 10px; BACKGROUND: url(../img/down.jpg) no-repeat; POSITION: absolute; LEFT: 205px; TOP: 60px
+}
+.aboutus {
+	HEIGHT: 267px; WIDTH: 210px; FLOAT: left; MARGIN-LEFT: 30px; DISPLAY: inline
+}
+.aboutus H2 {
+	FONT-SIZE: 14px; HEIGHT: 30px; FONT-WEIGHT: 500; COLOR: #000
+}
+.aboutus H2 SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: 
+}
+.aboutus DL {
+	HEIGHT: 170px
+}
+.aboutus DD {
+	COLOR: #000; MARGIN-TOP: 19px; LINE-HEIGHT: 18px
+}
+.businwss {
+	OVERFLOW: hidden; HEIGHT: 267px; WIDTH: 210px; FLOAT: left; MARGIN-LEFT: 26px; DISPLAY: inline
+}
+.businwss H2 {
+	FONT-SIZE: 14px; HEIGHT: 30px; FONT-WEIGHT: 500; COLOR: #010000
+}
+.businwss H2 SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000
+}
+.businwss DL {
+	HEIGHT: 170px
+}
+.businwss DL DT {
+	OVERFLOW: hidden; HEIGHT: 79px; WIDTH: 211px
+}
+.businwss DD {
+	WIDTH: 210px; COLOR: #000; MARGIN-TOP: 19px; LINE-HEIGHT: 18px
+}
+.scorll {
+	WIDTH: 10000px
+}
+.scorll DIV {
+	HEIGHT: 206px; WIDTH: 210px; FLOAT: left
+}
+.slide {
+	HEIGHT: 310px; WIDTH: 1002px
+}
+.construction {
+	HEIGHT: 267px; WIDTH: 210px; FLOAT: left; MARGIN-LEFT: 26px; DISPLAY: inline
+}
+.construction H2 {
+	FONT-SIZE: 14px; HEIGHT: 30px; FONT-WEIGHT: 500; COLOR: #010000
+}
+.construction H2 SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000
+}
+.construction DL {
+	HEIGHT: 79px
+}
+.construction UL {
+	MARGIN-TOP: 13px
+}
+.construction UL LI {
+	HEIGHT: 25px; WIDTH: 201px; BACKGROUND: url(../img/dian.jpg) no-repeat 1px 50%; BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-LEFT: 10px; LINE-HEIGHT: 25px
+}
+.construction UL LI A {
+	COLOR: #000
+}
+.construction UL LI A:hover {
+	COLOR: #00578c
+}
+.banner {
+	POSITION: relative
+}
+.banner IMG {
+	POSITION: absolute; LEFT: 0px; TOP: 0px
+}
+.banner A.nivo-imageLink {
+	HEIGHT: 100%; WIDTH: 100%; POSITION: absolute; LEFT: 0px; Z-INDEX: 60; DISPLAY: none; TOP: 0px
+}
+.nivo-slice {
+	HEIGHT: 100%; POSITION: absolute; Z-INDEX: 50; DISPLAY: block
+}
+.nivo-directionNav A {
+	CURSOR: pointer; POSITION: absolute; Z-INDEX: 99; TOP: 45%
+}
+.nivo-prevNav {
+	LEFT: 0px
+}
+.nivo-nextNav {
+	RIGHT: 0px
+}
+.nivo-controlNav A {
+	CURSOR: pointer; POSITION: relative; Z-INDEX: 99
+}
+#slider-wrapper {
+	HEIGHT: 350px; WIDTH: 1002px; MARGIN: 0px auto
+}
+#slider {
+	HEIGHT: 350px; WIDTH: 1002px; POSITION: relative
+}
+#slider IMG {
+	POSITION: absolute; LEFT: 0px; DISPLAY: none; TOP: 0px
+}
+#slider A {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px
+}
+.nivo-controlNav {
+	HEIGHT: 24px; WIDTH: 133px; BACKGROUND: url(../imgers/cirbg.gif); RIGHT: 0px; POSITION: absolute; PADDING-TOP: 5px; Z-INDEX: 100; BOTTOM: 0px
+}
+.nivo-controlNav A {
+	BORDER-LEFT-WIDTH: 0px; HEIGHT: 12px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 12px; BACKGROUND: #fff; BORDER-BOTTOM-WIDTH: 0px; FLOAT: left; MARGIN-LEFT: 12px; FILTER: alpha(opacity=60); DISPLAY: block; BORDER-TOP-WIDTH: 0px; TEXT-INDENT: -9999px; opacity: 0.6
+}
+.nivo-controlNav A.active {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+A.nivo-nextNav {
+	RIGHT: 15px; BACKGROUND-POSITION: -30px 0px; DISPLAY: none
+}
+A.nivo-prevNav {
+	LEFT: 15px; DISPLAY: none
+}
+.nivo-caption {
+	FONT-FAMILY: Helvetica, Arial, sans-serif; text-shadow: none
+}
+.nivo-caption A {
+	TEXT-DECORATION: underline; COLOR: #efe9d1
+}
+.clear {
+	CLEAR: both
+}
