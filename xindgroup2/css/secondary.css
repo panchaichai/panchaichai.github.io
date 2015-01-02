@@ -196,7 +196,7 @@ body{background:url(../img/foot.jpg) bottom repeat-x;}
 .xiashu strong{ padding-top:inherit; line-height:24px; text-indent:inherit;}
 
 
-#footer{width:1002px;height:86px; /* float:left; */}
+#footer{width:1002px;height:86px; float:left;}
 .about2{width:675px; padding-top:17px;padding-left:18px; padding-right:12px;}
 .about2 dl{width:675px;height:91px; border-bottom:1px dashed #cacaca; padding-top:19px; }
 .about2 dl dt{float:left;margin-right:15px;}
