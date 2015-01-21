@@ -1,0 +1,9 @@
+.picture {
+    width: 50%;
+    float: left;
+}
+.intro {
+    float: left;
+    display: block;
+    width: 50%;
+}

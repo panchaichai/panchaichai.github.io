@@ -1,0 +1,225 @@
+/*
+Theme Name: WPDOU2012
+Theme URI: http://www.wpdou.com/
+*/
+body{color:#333;background:#FFF;font:12px/20px "Microsoft Yahei",Tahoma,Verdana,Arial,Helvetica,Sans-Serif;margin:0 auto;padding:0}
+div,form,ul,ol,li,span,p{border:0;margin:0 auto;padding:0}
+ul,ol,li{list-style:none}
+img,a img{border:none;margin:0;padding:0}
+em{font-style:normal;font-size:12px}
+h1,h2,h3,h4,h5,h6{margin:0 auto}
+h1{font-size:24px;font-weight:400}
+h2{font-size:18px}
+h3{font-size:16px}
+h5,h6{font-size:12px}
+.clearfix{font-size:1px;width:1px;height:0;line-height:0;margin-top:0!important;clear:both;visibility:hidden}
+.inner{width:980px;clear:both;overflow:hidden}
+.clorange{color:#E84700}
+.highlight{background:#FFF0DD;padding:3px}
+.highlight div{border:1px solid #F3DCBE;background:#FFF;padding:10px 15px}
+a:link,a:visited{color:#333;text-decoration:none;outline:none}
+a:hover{color:#005BB5;text-decoration:underline}
+.header{border-bottom:1px solid #000;background:#282828}
+.header .inner{height:75px;background:url(images/header.jpg) no-repeat 0 0}
+.logo a{width:250px;height:75px;text-indent:-9999px;display:block}
+.headR{float:right;width:660px;padding-top:10px;overflow:hidden}
+.umenu{float:right;padding-right:15px}
+.umenu a:link,.umenu a:visited{color:#888;padding:0 2px 0 3px}
+.umenu a:hover{color:#CCC;text-decoration:none}
+.umenu strong{padding-left:15px;color:#55ACD7;background:url(images/icon.gif) no-repeat 0 -168px;background-position:0 -170px}
+.navi{float:right;margin-top:5px;overflow:hidden}
+.navi li{float:left;font-size:16px}
+.navi li a:link,.navi li a:visited{height:34px;line-height:34px;text-shadow:1px 1px 2px #000;color:#E4EFF8;display:inline-block;padding:0 15px}
+.navi li a:hover,.navi li.current-menu-item a,.navi li.current-post-parent a{color:#FFF;text-decoration:none}
+.container{margin:0 auto 10px}
+.content{float:right;width:755px;overflow:hidden}
+.headbar{margin-bottom:15px;height:60px;line-height:60px;border-top:1px solid #FFF;border-bottom:1px solid #DDD;background:#E4EFF8;text-shadow:0 1px 2px #FFF}
+.headbar h1,.headbar h5{float:left;font-size:28px;font-weight:400;color:#005BB5;overflow:hidden}
+.headbar h1 a,.headbar h5 a{color:#005BB5;text-decoration:none}
+.slogan{float:right;font-size:16px;color:#2B73AA}
+.slideshow{margin-bottom:15px;width:980px;height:100px;overflow:hidden;position:relative}
+#slider li img{width:980px;height:100px;display:block}
+#controls{float:right;position:absolute;bottom:7px;right:7px}
+#controls li{float:left;margin-left:5px;width:6px;height:6px;font-size:0;background:#C20;cursor:pointer;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;overflow:hidden;display:inline-block}
+#controls li.current{background:#FFF}
+.themelist li{float:left;margin-bottom:15px;width:240px;height:260px;border-bottom:1px solid #EEE;overflow:hidden;padding:0 6px 10px 5px}
+.themelist li img{width:240px;height:180px;border:1px solid #EEE;display:block}
+.themelist li h3{margin-top:5px;height:20px;font-size:13px;overflow:hidden}
+.themelist li h3 a{height:20px;color:#005BB5;overflow:hidden}
+.themelist li p{height:20px;color:#666;overflow:hidden;margin:3px 0}
+.themelist li p span{padding-left:15px}
+.themelist li p strong{font-size:13px;font-weight:400;color:#000}
+.themelist li:hover img{border:1px solid #F63}
+.postlist li{padding-left:20px;height:28px;line-height:25px;border-bottom:1px solid #EEE;background:url(images/icon.gif) no-repeat 5px 10px;margin:5px 0}
+.postlist li span{float:right;width:80px;text-align:right;color:#AAA}
+.themeColumn h2{margin-bottom:20px;width:100%;height:31px;line-height:31px;font-size:16px;color:#005BB5;border-bottom:1px solid #005BB5;overflow:hidden}
+.themeColumn h2 a{float:right;*margin-top:-28px;font-weight:400;font-size:13px;font-family:"å®‹ä½“"}
+.themeColumn .themelist li{height:255px;border:none;padding:0 6px 0 5px}
+.post{font-size:14px;overflow:hidden}
+.post h1{margin-bottom:5px;padding-bottom:6px;line-height:34px;text-align:center;font-size:28px;border-bottom:1px solid #DDD}
+.post p{margin-bottom:15px;line-height:24px}
+.post blockquote,.post pre,.post code{line-height:18px;border:1px solid #EEE;color:#666;background:#FFFFEF;margin:5px 10px 10px;padding:10px}
+.post blockquote blockquote,.post blockquote pre{border:none;margin:0;padding:5px}
+.post ul,.post ol{margin:10px 0 10px 25px}
+.post ul li{list-style:circle}
+.post ol li{list-style:decimal}
+.alignleft{float:left;padding-right:10px}
+.alignright{float:right;padding-left:10px}
+.alignnone,.aligncenter{float:none;margin-left:auto;margin-right:auto;text-align:center;clear:both;display:block}
+.alignnone{display:inline}.postmetabtm{margin-top:20px;border:1px solid #EEE;background:#FCFCFC;padding:5px 10px}
+.entry{padding:0 10px}.post .entry h1{margin-bottom:5px;line-height:auto;text-align:left;font-size:24px;border-bottom:none}
+.post h2,.post h3,.post h4{margin:10px 0}#bdshare strong{float:left;padding-right:6px;line-height:28px;font-weight:400}
+.themeimage{float:left;width:466px;border:1px solid #DDD;overflow:hidden;position:relative}
+.themeimage img{width:460px;height:300px;display:block;padding:3px}
+.themelink{height:40px;line-height:40px;background:#F16D05;overflow:hidden}
+.themelink a:link,.themelink a:visited{float:left;width:184px;height:40px;font-size:16px;text-align:center;color:#FFF;background:#D83232 url(images/sprite.png) repeat-x 0 -88px;display:inline-block}
+.themelink a:hover{color:#FFF;background-position:0 -102px;text-decoration:none}
+.themelink a.purchase:link,.themelink a.purchase:visited,.themelink a.purchase:hover{width:282px;font-size:22px;border-right:none;text-indent:-9999px;color:#FFC;background:#F27207 url(images/purchase.jpg) no-repeat 0 -40px}
+.themelink a.purchase:hover{color:#FFF;background-position:0 0}
+.themelink a.opacity{opacity:0.3;filter:alpha(opacity=30);cursor:text}
+.payformer{width:436px;height:225px;background:#EA5800 url(images/payform.png) no-repeat 0 1px;overflow:hidden;display:none;position:absolute;bottom:40px;left:0;padding:62px 15px 20px}
+#purchaseform p{margin-bottom:10px;line-height:28px;display:block}
+#purchaseform p label{float:left;padding-right:6px;width:70px;line-height:30px;font-weight:700;font-size:14px;text-align:right;color:#FFF;display:inline-block}
+#purchaseform p .pf{margin-right:2px;width:340px;height:28px;padding:0 5px}
+#purchaseform #buyersubmit{float:right;width:144px;height:38px;font-size:24px;text-indent:-9999px;border:none;background:#E9F2FE url(images/purchase.jpg) no-repeat 0 -80px;cursor:pointer}
+.payformer .tips{margin-bottom:5px;padding-bottom:10px;color:#F9AB95}
+.themedetails{float:right;width:490px;overflow:hidden}
+.themedetails h1{margin-bottom:15px;line-height:36px}
+.themedetails h1 strong{display:none}
+.themedetails ul li{margin-bottom:5px;font-size:14px;color:#505050;overflow:hidden}
+.themedetails ul li span{float:left;padding-right:8px}
+.themedetails ul li em{font-size:14px;text-decoration:line-through}
+.themedetails ul li .disprice{font-size:24px;font-weight:400;color:#C22}
+.themedetails ul li p{float:left;width:410px;overflow:hidden;display:inline-block}
+.themedetails .tips{margin-top:12px;padding-top:10px;border-top:1px solid #EEE;color:#999}
+.themeDetail .highlight div{padding:15px 20px}
+.features{float:left;margin-top:15px}
+.features div{float:left;margin-bottom:20px;width:306px;height:140px;border-bottom:1px solid #EEE;overflow:hidden;padding:0 30px 15px 0}
+.features div p{color:#555;margin:0}
+.features h3{padding-left:40px;height:32px;line-height:32px;font-size:18px;font-weight:400;color:#000;background:url(images/icon-features.gif) no-repeat 0 0;margin:0 0 10px}
+.options h3{background-position:0 2px}.seo h3{background-position:0 -42px}
+.browsers h3{background-position:0 -84px}
+.pro-modules h3{background-position:0 -126px}
+.auto-thumb h3{background-position:0 -168px}
+.custom-widgets h3{background-position:0 -210px}
+.codes h3{background-position:0 -252px}
+.afservice h3{background-position:0 -294px}
+.free-update h3{background-position:0 -336px}
+.browsers,.custom-widgets,.free-update{padding:0 0 15px!important}
+.related ul{overflow:hidden;margin:0;padding:10px 0 0}
+.related ul li{float:left;width:230px;height:220px;border:none;list-style:none;overflow:hidden;margin:0;padding:0 8px 0 7px}
+.related ul li img{width:230px}
+.related ul li h3{width:230px;height:20px;font-size:13px;overflow:hidden}
+.widepage{width:980px}
+.subtitle{width:100%;height:38px;line-height:38px;font-size:20px;font-weight:400;border-bottom:2px solid #E86303;overflow:hidden;margin:25px 0 20px}
+.subtitle span{height:38px;line-height:36px;color:#FFF;background:url(images/sprite.png) repeat-x 0 -158px;text-shadow:1px 1px 0 #BF4800;display:inline-block;padding:0 20px}
+.subtitle a{float:right;margin-top:-40px;font-size:15px;line-height:48px}
+.afterSale{margin-top:-10px;line-height:24px;background:#FFF url(images/after_sales.jpg) no-repeat right 0;padding:15px 400px 5px 10px}
+.afterSale ul li{padding-left:26px;list-style:none;line-height:28px;font-size:14px;background:url(images/icon.gif) no-repeat 0 -202px}
+.sidebar{float:left;width:210px;overflow:hidden}
+.sidebar h3{padding-left:10px;height:30px;line-height:30px;font-size:15px;border:1px solid #D2E1F1;border-top:1px solid #458FCE;border-bottom:none;color:#005BB5;background:url(images/sprite.png) repeat-x 0 -32px}
+.sidebar img{display:block;_display:inline}
+.sidebar ul li{margin-bottom:10px;overflow:hidden}
+.sidebar ul li ul{border:1px solid #D2E1F1;padding:10px 8px 8px 0}
+.sidebar ul li ul li{padding-left:22px;height:22px;line-height:22px;border:none;background:url(images/icon.gif) no-repeat 10px -79px;overflow:hidden;margin:0}
+.sidebar ul li div{border:1px solid #D2E1F1;padding:10px 0 0}
+.sidebar ul li div ul{border:none}
+.sidebar ul li div p{overflow:hidden;padding:0 8px 10px 10px}
+.sidebar ul li div img{margin-bottom:6px}
+.sidebar ul li.banners{margin-bottom:5px}
+.sidebar ul li.catslist h3{height:32px;border:none;color:#FFF;background:url(images/sprite.png) no-repeat 0 0}
+.sidebar ul li.catslist ul{border:1px solid #F08E8E;border-top:none;background:#FFFAF0;padding:0}
+.sidebar ul li.catslist ul li{height:32px;border-bottom:1px solid #F7E7CF;background:none;padding:0}
+.sidebar ul li.catslist a:link,.sidebar ul li.catslist a:visited{padding-left:28px;height:32px;line-height:32px;font-size:14px;color:#000;background:url(images/icon.gif) no-repeat 13px -12px;display:block}
+.sidebar ul li.catslist a:hover,.sidebar ul li.catslist ul li.current-menu-item a,.sidebar ul li.catslist ul li.current-cat a{color:#C10;background-color:#FFF;background-position:13px -39px;text-decoration:none}
+.sidebar ul li.module6{height:430px;background:url(images/sidebar-module.jpg) no-repeat 0 0;padding:0 5px 5px 10px}
+.sidebar ul li.module6 a{width:100%;height:50px;text-indent:-9999px;display:block}
+.sidebar ul li.module6 p{margin-bottom:26px;padding-left:55px}
+.sidebar ul li.module6 p strong,.sidebar ul li.module6 p span{display:block}
+.pagenavi{line-height:30px;text-align:center;overflow:hidden;margin:15px auto}
+.pagenavi a:link,.pagenavi a:visited{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0 3px;padding:5px 9px}
+.pagenavi a:hover,.pagenavi a.current{color:#005BB5;background:#E4EFF8;text-decoration:none}
+.pagenavi a.current{font-weight:700}.themenavi{margin:5px auto 15px}
+.pageleft,.pageright{width:320px;overflow:hidden}
+.pageleft{float:left;padding-left:10px;text-align:left}
+.pageright{float:right;padding-right:10px;text-align:right}
+.postcomment{overflow:hidden;padding:10px}
+.postcomment p{padding:10px 15px}
+.commentlist li{margin-bottom:15px;border:1px solid #DFDFDF;background:#FFF}
+.commentlist li ul{margin:10px}
+.comment-author{height:20px;border-bottom:1px solid #ECECEC;background-color:#F6F6F6;padding:5px 2px 3px}
+.author_info{float:left;padding-left:5px;line-height:16px}
+.author_info cite{padding-right:5px;font-style:normal;font-weight:700}
+.author_info em{font-size:10px;color:#888}
+a.comment-reply-link,a#cancel-comment-reply-link{float:right;color:#999;margin:-3px 6px 0 0}
+#respondOut{border:1px solid #F1D38B;background-color:#FFF;margin:5px 0 20px;padding:1px}
+#respondBD{border:2px solid #FCF4CD}
+#addcomment{height:24px;line-height:24px;font-size:18px;font-weight:400;border-bottom:1px solid #F5E1B4;color:#20273D;background-color:#FCF4CD;padding:2px 0 4px 12px}
+#commentform{padding:25px 15px 15px}
+#respond p{margin-bottom:12px;padding:0}
+#respond p.btn_submit{height:34px}
+#respond label{float:left;width:68px;font-size:14px;text-align:right;display:block;padding:3px 5px}
+#respond em{color:red;font-weight:400;padding:5px}
+#author,#email,#url,#comment{width:60%;border:1px solid #DDD;padding:6px}
+#comment{width:94%;height:150px;overflow-y:scroll}
+#submit{float:right;width:112px;height:34px;text-indent:-9999px;border:none;background:url(images/submit.gif) no-repeat 0 0;cursor:pointer;display:block;margin:0 28px}
+.widepage #submit{margin:0 38px}
+.error{line-height:30px;margin:50px 150px}
+.error404{height:250px;background:url(images/404.gif) no-repeat center 30px}
+.post404 .subtitle span{color:#D00;background:none;text-shadow:none;padding:0}
+.footBar{height:45px;line-height:45px;border-top:1px solid #DDD;background:#E4EFF8;overflow:hidden}
+.footpage li{width:1px;font-size:13px;font-weight:700;display:inline;word-break:keep;white-space:nowrap;padding:0 10px}
+.sharecode{float:right;margin-top:8px;line-height:20px}
+.adBar{margin-bottom:15px;width:974px;text-align:center}
+.adBar div{padding:2px 0}
+.footer{border-top:1px solid #000;color:#888;background:#282828}
+.footer .inner{padding:15px 0 10px}
+.footer a:link,.footer a:visited{color:#888}
+.footer p{margin-bottom:8px;line-height:15px}
+.friendlink ul li{float:left;white-space:nowrap;margin:5px 10px 0 0}
+.partner ul li{height:42px;line-height:40px;margin:5px 9px 0 0}
+.partner ul li img{border:1px solid #E6E6E6;padding:1px}
+.cp img{height:28px}
+.ct{float:right;widows:300px;text-align:right;overflow:hidden}
+#cs{width:120px;position:absolute;top:150px;right:0;z-index:9999;overflow:hidden;cursor:pointer}
+#cs a{width:100%;height:100%;text-indent:-9999px;display:block}
+#csDiv{float:right;width:120px;height:277px;background:url(images/cs.png) no-repeat 0 0;display:block}
+#csBtn{float:right;width:38px;height:136px;background:url(images/cs.png) no-repeat -120px 0;display:none}
+.banner{width:980px;text-align:center;overflow:hidden;margin:0 auto 10px}
+.banner div{float:right;width:14px;height:14px;position:absolute;top:9px;right:10px;display:block}
+.notice{width:980px;text-align:center}.sidead{margin-top:0}
+.backToTop{width:30px;height:30px;background:#666 url(images/icon.gif) no-repeat 8px -285px;-moz-border-radius:4px;-khtml-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;position:fixed;_position:absolute;right:20px;bottom:20px;_bottom:auto;cursor:pointer;display:none}
+.backToTop:hover{background-color:#333}
+#iframe-header{height:32px;line-height:32px;border-bottom:1px solid #DDD;background:#F9F9F9 url(images/sprite.png) repeat-x 0 -32px}
+#iframe-header .back{float:right;font-size:16px;padding:0 20px}
+#iframe-header .sitename .back{float:left;font-size:20px;text-decoration:none;padding:0 10px 0 20px}
+h4,.themeDetail{font-size:14px}
+.hidden,.themelist,.postlist,.themeColumn{overflow:hidden}
+.logo,.contentLeft,#iframe-header .sitename{float:left}
+.themelist li h3 a:hover,.themelist li:hover a{color:#F30}
+.postlist li a,.cp{float:left;width:600px;overflow:hidden}
+.post blockquote p,.post .highlight div p,.themeshow{margin-bottom:0}
+.aligncenter,.footpage{text-align:center}.post a:link,.post a:visited,.footpage a:hover{color:#005BB5}
+.post a:hover,.footpage a:link,.footpage a:visited{color:#333}
+.post .postmeta,.post .postmeta a,.footer a:hover{color:#999}
+.post .postmeta a:hover,a.comment-reply-link:hover,a#cancel-comment-reply-link:hover{color:#666}
+#purchaseform,.pagebar{float:right}.post .themeDetail .highlight div p,.friendlink{margin-bottom:10px}
+.sidebar ul li.banners div,.sidebar ul li.catslist div{border:none;padding:0}
+.entry ul.servicelist{margin:0;padding:0;border:0;border-bottom:1px solid #DDD;background:0;overflow:hidden}
+.entry ul.servicelist li h2{margin:0;padding:0;border:0;color:#333}
+.entry ul.servicelist li{float:left;margin:0;padding:20px 15px 25px;width:230px;height:190px;border-right:1px solid #FFF;border-top:1px solid #FFF;list-style:none}
+.entry ul.servicelist li.title{padding:10px 15px;height:auto;border-right:1px solid #2698d4;border-bottom:0;text-align:center;background:#0086cc;text-shadow:1px 1px 1px #005bb5}
+.entry ul.servicelist li.title h2{color:#daebf3}
+.entry ul.servicelist li.sbtitle{text-align:center;background-color:#f0f0f0;background-position:0 0}
+.entry ul.servicelist li.sbtitle h2{line-height:180px;font-size:26px;font-weight:normal;color:#333}
+.entry ul.servicelist li.sbtitle h2 span{margin-top:-150px;font-size:13px;font-weight:normal;color:#F30;display:block}
+.entry ul.servicelist li.mid{background-color:#e8f0f2;background-position:-261px 0}
+.entry ul.servicelist li.last{background-color:#dff0ee;background-position:-763px 0}.entry ul.servicelist li.sbtitle-alt{background-color:#ececec;background-position:-980px 0}
+.entry ul.servicelist li.mid-alt{background-color:#e8f0f2;background-position:-1241px 0}
+.entry ul.servicelist li.last-alt{background-color:#dff0ee;background-position:-1742px 0}
+.entry ul.servicelist li.last div{padding:60px 0 0 0;text-align:center}
+.entry ul.servicelist li.title-content,.entry ul.servicelist li.mid,.entry ul.servicelist li.mid ul li{width:450px}
+.entry ul.servicelist li.title-price,.entry ul.servicelist li.last,.entry ul.servicelist li.last ul li{width:188px;font-size:13px;font-weight:bold;border-right:0}
+.entry ul.servicelist li ul{margin:0 0 0 5px;padding:0;border:0;background:0;overflow:hidden}
+.entry ul.servicelist li ul li{padding:0;height:auto;border:0;background:0}
+.entry ul.step{margin:0;padding:0;border:0;border-top:2px solid #EEE;background:0;overflow:hidden}
