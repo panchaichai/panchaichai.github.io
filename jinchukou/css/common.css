@@ -1,0 +1,408 @@
+@import url( nav.css );
+A {
+	COLOR: #029fd3; OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; OUTLINE-COLOR: invert
+}
+.hrs_inlineBlock {
+	VERTICAL-ALIGN: middle; ZOOM: 1; DISPLAY: inline-block
+}
+.hrs_error {
+	BACKGROUND: url(../images/sec_bg.png) no-repeat left -42px; COLOR: #ff3300; PADDING-LEFT: 18px
+}
+.hrs_right {
+	BACKGROUND: url(../images/sec_bg.png) no-repeat left -256px; COLOR: #ff3300; PADDING-LEFT: 18px
+}
+.btnOrange_hover {
+	BACKGROUND-POSITION: left -294px
+}
+.btnBlue_hover {
+	BACKGROUND-POSITION: left -326px
+}
+.btnOrangeSmall_hover {
+	BACKGROUND-POSITION: left -381px
+}
+.btnGraySmall_hover {
+	BACKGROUND-POSITION: left -427px
+}
+.hrs_grayBorderTitle {
+	FONT-SIZE: 14px; HEIGHT: 42px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-WEIGHT: bold; COLOR: #333333; LINE-HEIGHT: 42px
+}
+.hrs_submitBtn:hover {
+	TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND: url(../images/15.jpg) #E1F4FE no-repeat center top;}
+#hrs_header {
+	HEIGHT: 56px; WIDTH: 100%; POSITION: absolute; LEFT: 0px; Z-INDEX: 9999; TOP: 0px
+}
+#hrs_mainOuter {
+	POSITION: relative; PADDING-BOTTOM: 31px
+}
+.hrs_mainbg {
+	HEIGHT: 71px; WIDTH: 100%; BACKGROUND: #666; Z-INDEX: -1
+}
+#hrs_main {
+	OVERFLOW: hidden; WIDTH: 990px; 
+	/* BACKGROUND: #fff; */ POSITION: relative; MARGIN: 178px auto 0px; MIN-HEIGHT: 557px
+}
+#hrs_footer {
+	HEIGHT: 31px; BACKGROUND: #444; COLOR: #999; TEXT-ALIGN: center; LINE-HEIGHT: 31px
+}
+#hrs_footer A {
+	COLOR: #999
+}
+.hrs_tab {
+	HEIGHT: 57px; BACKGROUND: #f7f7f7; BORDER-BOTTOM: #e5e5e5 1px solid
+}
+.hrs_tab LI {
+	HEIGHT: 55px; BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 98px; BACKGROUND: #fff; FLOAT: left; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px
+}
+.hrs_tab LI A {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #333333; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 55px
+}
+.hrs_tab LI A:hover {
+	TEXT-DECORATION: none
+}
+.hrs_tab LI.hrs_tabCurrent {
+	BORDER-TOP: #029fd3 1px solid; WIDTH: 100px; PADDING-BOTTOM: 1px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.hrs_tab LI.hrs_tabCurrent A {
+	BORDER-TOP: #029fd3 4px solid; HEIGHT: 53px; BACKGROUND: #fff; LINE-HEIGHT: 52px
+}
+.hrs_formHorizontal {
+	FONT-SIZE: 14px; COLOR: #606060; PADDING-TOP: 10px
+}
+.hrs_formHorizontal .hrs_formGroup {
+	MARGIN-TOP: 25px
+}
+.hrs_radioGroup {
+	MARGIN-TOP: 10px
+}
+.hrs_submitGroup {
+	MARGIN-TOP: 20px
+}
+.hrs_formHorizontal LABEL {
+	VERTICAL-ALIGN: middle; MIN-WIDTH: 150px; ZOOM: 1; TEXT-ALIGN: right; DISPLAY: inline-block
+}
+.hrs_formHorizontal .hrs_formRequire {
+	FONT-SIZE: 12px; COLOR: #ff3300; MARGIN-RIGHT: 5px
+}
+.hrs_formHorizontal INPUT[type='text'] {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 25px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 260px; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 4px; MARGIN-LEFT: -3px; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 25px; PADDING-RIGHT: 4px; box-shadow: inset 0 1px 3px #eee
+}
+.hrs_formHorizontal INPUT[type='password'] {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 25px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 260px; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 4px; MARGIN-LEFT: -3px; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 25px; PADDING-RIGHT: 4px; box-shadow: inset 0 1px 3px #eee
+}
+.hrs_formError {
+	FONT-SIZE: 12px; HEIGHT: 30px; VERTICAL-ALIGN: middle; BACKGROUND: url(../images/sec_bg.png) no-repeat left -42px; ZOOM: 1; COLOR: #ff3300; PADDING-LEFT: 18px; MARGIN-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 30px
+}
+.hrs_formRight {
+	FONT-SIZE: 12px; HEIGHT: 30px; VERTICAL-ALIGN: middle; BACKGROUND: url(../images/sec_bg.png) no-repeat left -42px; ZOOM: 1; COLOR: #ff3300; PADDING-LEFT: 18px; MARGIN-LEFT: 6px; DISPLAY: inline-block; LINE-HEIGHT: 30px
+}
+.hrs_formRight {
+	BACKGROUND: url(../images/sec_bg.png) no-repeat left -256px; COLOR: #ff3300; PADDING-LEFT: 18px
+}
+.hrs_formHorizontal .hrs_submitBtn {
+	MARGIN-LEFT: 150px; MARGIN-RIGHT: 15px
+}
+#hrs_loginTabContent .hrs_formHorizontal .hrs_radioGroup A.hrs_toOtherTab {
+	FONT-SIZE: 12px; COLOR: #606060; MARGIN-LEFT: 50px
+}
+.hrs_formHorizontal LABEL.hrs_radioLabel {
+	WIDTH: auto; MIN-WIDTH: 90px; TEXT-ALIGN: left; MARGIN-RIGHT: 10px
+}
+.hrs_formHorizontal INPUT[type='radio'] {
+	WIDTH: auto; VERTICAL-ALIGN: middle; MARGIN: -3px 5px 0px 0px
+}
+.hrs_formHorizontal INPUT[type='checkbox'] {
+	WIDTH: auto; VERTICAL-ALIGN: middle; MARGIN: -3px 5px 0px 0px
+}
+.hrs_tab2 {
+	OVERFLOW: hidden
+}
+.hrs_tab2 LI {
+	BORDER-TOP: #d4d4d4 1px solid; HEIGHT: 33px; BORDER-RIGHT: #d4d4d4 1px solid; WIDTH: 105px; BORDER-BOTTOM: #d4d4d4 1px solid; FLOAT: left; BORDER-LEFT: #d4d4d4 1px solid; MARGIN-RIGHT: -1px
+}
+.hrs_tab2 LI A {
+	FONT-SIZE: 14px; BACKGROUND: #f4f4f4; COLOR: #333333; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 33px
+}
+.hrs_tab2 LI A:hover {
+	TEXT-DECORATION: none
+}
+.hrs_tab2 LI.hrs_tabCurrent A {
+	BACKGROUND: #fff; LINE-HEIGHT: 34px
+}
+.hrs_tabVertical UL {
+	BACKGROUND: #fff
+}
+.hrs_tabVertical LI {
+	HEIGHT: 39px; WIDTH: 0px; LINE-HEIGHT: 39px
+}
+.hrs_tabVertical LI A {
+	FONT-SIZE: 14px; WIDTH: 170px; BACKGROUND: url(../images/sec_bg.png) no-repeat right -79px; BORDER-BOTTOM: #dfdfdf 1px solid; POSITION: absolute; COLOR: #333333; PADDING-LEFT: 20px; DISPLAY: block
+}
+.hrs_tabVertical LI A:hover {
+	TEXT-DECORATION: none
+}
+.hrs_tabVertical LI.hover {
+	WIDTH: 190px; BACKGROUND: #eeeeee; animation: navHover 0.5s; -moz-animation: navHover 0.5s; -webkit-animation: navHover 0.5s; -o-animation: navHover 0.5s
+}
+.hrs_tabVertical LI.leave {
+	BACKGROUND: #eeeeee; animation: navLeave 0.5s; -moz-animation: navLeave 0.5s; -webkit-animation: navLeave 0.5s; -o-animation: navLeave 0.5s
+}
+.hrs_tabVertical LI.hrs_tabCurrent A {
+	BACKGROUND-POSITION: right -129px; BACKGROUND-COLOR: #eeeeee
+}
+.hrs_table {
+	BORDER-TOP: #bbb 2px solid; BORDER-RIGHT: #ddd 1px solid; WIDTH: 100%; BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; MARGIN-TOP: 12px
+}
+.hrs_table TR {
+	BORDER-BOTTOM: #ddd 1px solid
+}
+.hrs_table TH {
+	BACKGROUND: #f7f7f7; COLOR: #333; TEXT-ALIGN: center
+}
+.hrs_table TD {
+	COLOR: #666; TEXT-ALIGN: center
+}
+.hrs_table THEAD TR {
+	HEIGHT: 29px; LINE-HEIGHT: 29px
+}
+.hrs_table TBODY TR {
+	HEIGHT: 44px; LINE-HEIGHT: 44px
+}
+.hrs_table TBODY TR P {
+	LINE-HEIGHT: 22px
+}
+.hrs_p {
+	COLOR: #333; LINE-HEIGHT: 18px
+}
+.hrs_more SPAN {
+	FONT-FAMILY: "simsun"
+}
+.hrs_page {
+	TEXT-ALIGN: center
+}
+.hrs_page A {
+	BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #e5e5e5 1px solid; ZOOM: 1; COLOR: #029fd3; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 12px; MARGIN-LEFT: -5px; BORDER-LEFT: #e5e5e5 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 30px; PADDING-RIGHT: 12px
+}
+.hrs_page A:hover {
+	TEXT-DECORATION: none; BACKGROUND: #efefef; COLOR: #333
+}
+.hrs_page A.hrs_curPage {
+	TEXT-DECORATION: none; BACKGROUND: #efefef; COLOR: #333
+}
+.sec_warning {
+	TEXT-ALIGN: center
+}
+.sec_success {
+	TEXT-ALIGN: center
+}
+.sec_warning SPAN {
+	VERTICAL-ALIGN: middle; BACKGROUND: url(../images/sec_bg.png) no-repeat left -464px; ZOOM: 1; PADDING-LEFT: 20px; DISPLAY: inline-block; LINE-HEIGHT: 24px
+}
+.sec_success SPAN {
+	VERTICAL-ALIGN: middle; BACKGROUND: url(../images/sec_bg.png) no-repeat left -464px; ZOOM: 1; PADDING-LEFT: 20px; DISPLAY: inline-block; LINE-HEIGHT: 24px
+}
+.sec_success SPAN {
+	BACKGROUND-POSITION: left -259px
+}
+INPUT[type='submit']:focus {
+	
+}
+.hrs_jobIntern .hrs_topBorder {
+	BORDER-TOP-COLOR: #f88e1e
+}
+.hrs_jobIntern .hrs_tab LI.current SPAN {
+	BORDER-TOP-COLOR: #f88e1e
+}
+.hrs_jobIntern .hrs_listModel H3 {
+	BACKGROUND: #f88f1c
+}
+.hrs_jobIntern #hrs_side H3 {
+	BACKGROUND: #90c5a9;}
+.hrs_jobIntern .hrs_listModel H3 A {
+	COLOR: #fdc98f
+}
+.hrs_jobIntern #hrs_searchOuter DD.hrs_curType {
+	BACKGROUND: #fa8f1d
+}
+.hrs_jobIntern #hrs_searchOuter DD:hover {
+	BACKGROUND: #fa8f1d
+}
+.hrs_jobIntern .hrs_table_striped TBODY A:hover {
+	COLOR: #f88e1e
+}
+.hrs_jobIntern .hrs_page A {
+	COLOR: #f88e1e
+}
+.hrs_jobIntern .hrs_listModel UL LI A:hover {
+	COLOR: #f88e1e
+}
+.hrs_jobSchool .hrs_topBorder {
+	BORDER-TOP-COLOR: #8ac916
+}
+.hrs_jobSchool .hrs_tab LI.current SPAN {
+	BORDER-TOP-COLOR: #8ac916
+}
+.hrs_jobSchool .hrs_listModel H3 {
+	BACKGROUND: #8dc919
+}
+.hrs_jobSchool #hrs_side H3 {
+	BACKGROUND: #8dc919
+}
+.hrs_jobSchool .hrs_listModel H3 A {
+	COLOR: #daff9f
+}
+.hrs_jobSchool #hrs_searchOuter DD.hrs_curType {
+	BACKGROUND: #8dca15
+}
+.hrs_jobSchool #hrs_searchOuter DD:hover {
+	BACKGROUND: #8dca15
+}
+.hrs_jobSchool .hrs_table_striped TBODY A:hover {
+	COLOR: #8ac916
+}
+.hrs_jobSchool .hrs_page A {
+	COLOR: #8ac916
+}
+.hrs_jobSchool .hrs_listModel UL LI A:hover {
+	COLOR: #8ac916
+}
+.hrs_jobOverseas .hrs_topBorder {
+	BORDER-TOP-COLOR: #920093
+}
+.hrs_jobOverseas .hrs_tab LI.current SPAN {
+	BORDER-TOP-COLOR: #920093
+}
+.hrs_jobOverseas .hrs_listModel H3 {
+	BACKGROUND: #920093
+}
+.hrs_jobOverseas #hrs_side H3 {
+	BACKGROUND: #920093
+}
+.hrs_jobOverseas .hrs_listModel H3 A {
+	COLOR: #e43ee6
+}
+.hrs_jobOverseas #hrs_searchOuter DD.hrs_curType {
+	BACKGROUND: #8f0094
+}
+.hrs_jobOverseas #hrs_searchOuter DD:hover {
+	BACKGROUND: #8f0094
+}
+.hrs_jobOverseas .hrs_table_striped TBODY A:hover {
+	COLOR: #920093
+}
+.hrs_jobOverseas .hrs_page A {
+	COLOR: #920093
+}
+.hrs_jobOverseas .hrs_listModel UL LI A:hover {
+	COLOR: #920093
+}
+.office-address-detail LI A {
+	BACKGROUND: url(../images/sprite_bg.png) no-repeat -99px -38px
+}
+.dialog-selectResume-title {
+	BACKGROUND: url(../images/sprite_bg.png) no-repeat -99px -38px
+}
+.dialog-selectResume-title .close {
+	BACKGROUND: url(../images/sprite_bg.png) no-repeat -99px -38px
+}
+.dialog-selectResume-footer INPUT {
+	BACKGROUND: url(../images/sprite_bg.png) no-repeat -99px -38px
+}
+.office-address-area {
+	MARGIN: 20px 0px
+}
+.office-address-area LABEL {
+	FONT-SIZE: 14px; FONT-FAMILY: "Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½"
+}
+.office-address-area SPAN {
+	FONT-SIZE: 14px; FONT-FAMILY: "Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½"
+}
+.office-address-area SPAN {
+	CURSOR: pointer; PADDING-BOTTOM: 2px; PADDING-TOP: 3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; MARGIN-RIGHT: 4px
+}
+.office-address-area SPAN.current {
+	BACKGROUND: #009de0; COLOR: #fff
+}
+.office-address-area SPAN:hover {
+	BACKGROUND: #009de0; COLOR: #fff
+}
+.office-address-detail {
+	
+}
+.office-address-detail LI {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 20px
+}
+.office-address-detail LI IMG {
+	HEIGHT: 189px; WIDTH: 280px; BACKGROUND: #f00; FLOAT: left
+}
+.office-address-detail LI DIV {
+	MARGIN-LEFT: 300px; MARGIN-TOP: 8px
+}
+.office-address-detail LI H3 {
+	MARGIN-BOTTOM: 12px; FONT-SIZE: 12px; FONT-WEIGHT: 700
+}
+.office-address-detail LI P {
+	MARGIN: 6px 0px
+}
+.office-address-detail LI A {
+	HEIGHT: 25px; WIDTH: 69px; COLOR: #fff; TEXT-ALIGN: center; MARGIN-TOP: 19px; DISPLAY: block; LINE-HEIGHT: 25px
+}
+.office-address-detail LI A:hover {
+	TEXT-DECORATION: none; BACKGROUND-POSITION: -99px -70px
+}
+.dialog-selectResume {
+	BORDER-TOP: #ccc 5px solid; BORDER-RIGHT: #ccc 5px solid; WIDTH: 500px; BORDER-BOTTOM: #ccc 5px solid; POSITION: absolute; LEFT: 50%; MARGIN: -140px 0px 0px -250px; MIN-HEIGHT: 280px; BORDER-LEFT: #ccc 5px solid; TOP: 50%; BACKGROUND-COLOR: #fff
+}
+.dialog-selectResume-title {
+	FONT-SIZE: 14px; HEIGHT: 38px; FONT-FAMILY: "Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½"; BORDER-COLLAPSE: collapse; BACKGROUND-REPEAT: repeat-x; TABLE-LAYOUT: fixed; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-POSITION: -10px -455px; FONT-WEIGHT: 700; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 38px; PADDING-RIGHT: 0px
+}
+.dialog-selectResume-title .close {
+	CURSOR: pointer; HEIGHT: 38px; WIDTH: 38px; BACKGROUND-POSITION: -10px -404px; FLOAT: right; BORDER-LEFT: #ccc 1px solid; TEXT-INDENT: -9999px
+}
+.dialog-selectResume-title .close:hover {
+	BACKGROUND-POSITION: -61px -404px
+}
+.dialog-selectResume-table {
+	WIDTH: 100%
+}
+.dialog-selectResume-table TR {
+	HEIGHT: 56px
+}
+.dialog-selectResume-table TH {
+	HEIGHT: 56px
+}
+.dialog-selectResume-table TD {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 0px solid; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #ccc 0px solid; LINE-HEIGHT: 20px; PADDING-RIGHT: 10px
+}
+.dialog-selectResume-table TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.dialog-selectResume-footer {
+	HEIGHT: 34px; TEXT-ALIGN: center; MARGIN: 20px 0px 26px
+}
+.dialog-selectResume-footer INPUT {
+	FONT-SIZE: 14px; BORDER-TOP: 0px; HEIGHT: 34px; BORDER-RIGHT: 0px; WIDTH: 90px; BORDER-BOTTOM: 0px; FONT-WEIGHT: 700; COLOR: #fff; BORDER-LEFT: 0px; LINE-HEIGHT: 34px
+}
+.dialog-selectResume-footer .apply {
+	BACKGROUND-POSITION: -10px -208px; MARGIN-RIGHT: 14px
+}
+.dialog-selectResume-footer .apply:hover {
+	BACKGROUND-POSITION: -10px -258px
+}
+.dialog-selectResume-footer .cancel {
+	BACKGROUND-POSITION: -10px -307px; COLOR: #333; MARGIN-RIGHT: 14px
+}
+.dialog-selectResume-footer .cancel:hover {
+	BACKGROUND-POSITION: -10px -357px
+}
+
+a.title {
+    color: #5ECD52;
+}
+
+a.title:hover {
+    text-decoration: none;
+    color: #f88e1e;
+}

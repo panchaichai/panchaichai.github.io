@@ -1,0 +1,549 @@
+BODY {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+HR {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+lengend {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BUTTON {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BODY {
+	FONT: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif}
+BUTTON {
+	FONT: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+INPUT {
+	FONT: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+SELECT {
+	FONT: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+TEXTAREA {
+	FONT: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif
+}
+H1 {
+	FONT-SIZE: 18px
+}
+H2 {
+	FONT-SIZE: 16px
+}
+H3 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 100%
+}
+H5 {
+	FONT-SIZE: 100%
+}
+H6 {
+	FONT-SIZE: 100%
+}
+ADDRESS {
+	FONT-STYLE: normal
+}
+CITE {
+	FONT-STYLE: normal
+}
+DFN {
+	FONT-STYLE: normal
+}
+EM {
+	FONT-STYLE: normal
+}
+VAR {
+	FONT-STYLE: normal
+}
+CODE {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+KBD {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+PRE {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+SAMP {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+TT {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+SMALL {
+	FONT-SIZE: 12px
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+A {
+	TEXT-DECORATION: none}
+A:hover {
+	TEXT-DECORATION: underline
+}
+ABBR[title] {
+	CURSOR: help; BORDER-BOTTOM: 1px dotted
+}
+ACRONYM[title] {
+	CURSOR: help; BORDER-BOTTOM: 1px dotted
+}
+Q:before {
+	CONTENT: ''
+}
+Q:after {
+	CONTENT: ''
+}
+LEGEND {
+	COLOR: #000
+}
+FIELDSET {
+	BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none
+}
+IMG {
+	BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none
+}
+BUTTON {
+	FONT-SIZE: 100%
+}
+INPUT {
+	FONT-SIZE: 100%
+}
+SELECT {
+	FONT-SIZE: 100%
+}
+TEXTAREA {
+	FONT-SIZE: 100%
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; BORDER-SPACING: 0
+}
+HR {
+	BORDER-TOP: medium none; HEIGHT: 1px; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none
+}
+HTML {
+	OVERFLOW-Y: scroll
+}
+.bx-wrapper {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px auto 60px; PADDING-RIGHT: 0px
+}
+.bx-wrapper IMG {
+	MAX-WIDTH: 100%; DISPLAY: block
+}
+.bx-wrapper .bx-viewport {
+	BORDER-TOP: #fff 5px solid; BORDER-RIGHT: #fff 5px solid; BACKGROUND: #fff; BORDER-BOTTOM: #fff 5px solid; LEFT: -5px; BORDER-LEFT: #fff 5px solid; box-shadow: 0 0 5px #ccc; -moz-box-shadow: 0 0 5px #ccc; -webkit-box-shadow: 0 0 5px #ccc
+}
+.bx-wrapper .bx-pager {
+	WIDTH: 100%; POSITION: absolute; BOTTOM: -30px
+}
+.bx-wrapper .bx-controls-auto {
+	WIDTH: 100%; POSITION: absolute; BOTTOM: -30px
+}
+.bx-wrapper .bx-loading {
+	HEIGHT: 100%; WIDTH: 100%; POSITION: absolute; LEFT: 0px; MIN-HEIGHT: 50px; Z-INDEX: 2000; TOP: 0px
+}
+.bx-wrapper .bx-pager {
+	FONT-SIZE: 0.85em; FONT-FAMILY: Arial; FONT-WEIGHT: bold; COLOR: #666; TEXT-ALIGN: center; PADDING-TOP: 20px
+}
+.bx-wrapper .bx-pager .bx-pager-item {
+	DISPLAY: inline-block
+}
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	DISPLAY: inline-block
+}
+.bx-wrapper .bx-default-pager.bx-pager A {
+	HEIGHT: 10px; WIDTH: 10px; BACKGROUND: #666; OUTLINE-WIDTH: 0px; OUTLINE-STYLE: none; MARGIN: 0px 5px; DISPLAY: block; OUTLINE-COLOR: invert; TEXT-INDENT: -9999px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+.bx-wrapper .bx-default-pager.bx-pager A:hover {
+	BACKGROUND: #000
+}
+.bx-wrapper .bx-default-pager.bx-pager A.active {
+	BACKGROUND: #000
+}
+.bx-wrapper .bx-controls-direction A.disabled {
+	DISPLAY: none
+}
+.bx-wrapper .bx-controls-auto {
+	TEXT-ALIGN: center
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+	HEIGHT: 11px; WIDTH: 10px; BACKGROUND: url(images/controls.png) no-repeat -86px -11px; OUTLINE-WIDTH: 0px; OUTLINE-STYLE: none; MARGIN: 0px 3px; DISPLAY: block; OUTLINE-COLOR: invert; TEXT-INDENT: -9999px
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover {
+	BACKGROUND-POSITION: -86px 0px
+}
+.bx-wrapper .bx-controls-auto .active.bx-start {
+	BACKGROUND-POSITION: -86px 0px
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+	HEIGHT: 11px; WIDTH: 9px; BACKGROUND: url(images/controls.png) no-repeat -86px -44px; OUTLINE-WIDTH: 0px; OUTLINE-STYLE: none; MARGIN: 0px 3px; DISPLAY: block; OUTLINE-COLOR: invert; TEXT-INDENT: -9999px
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover {
+	BACKGROUND-POSITION: -86px -33px
+}
+.bx-wrapper .bx-controls-auto .active.bx-stop {
+	BACKGROUND-POSITION: -86px -33px
+}
+.bx-wrapper .bx-has-pager.bx-has-controls-auto.bx-controls .bx-pager {
+	WIDTH: 80%; TEXT-ALIGN: left
+}
+.bx-wrapper .bx-has-pager.bx-has-controls-auto.bx-controls .bx-controls-auto {
+	WIDTH: 35px; RIGHT: 0px
+}
+.bx-wrapper .bx-caption {
+	WIDTH: 100%; BACKGROUND: #666; POSITION: absolute; LEFT: 0px; DISPLAY: none; BOTTOM: 0px
+}
+.bx-wrapper .bx-caption SPAN {
+	FONT-SIZE: 0.85em; FONT-FAMILY: Arial; COLOR: #fff; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; DISPLAY: block; PADDING-RIGHT: 10px
+}
+.bx-wrapper {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+.bx-wrapper .bx-viewport {
+	BORDER-TOP: #ffffff 0px solid; BORDER-RIGHT: #ffffff 0px solid; BACKGROUND: #ffffff 0px 0px; BORDER-BOTTOM: #ffffff 0px solid; LEFT: 0px; BORDER-LEFT: #ffffff 0px solid; box-shadow: 0 0 5px #CCCCCC
+}
+.bx-wrapper IMG {
+	
+}
+.bx-controls {
+	WIDTH: 70px; BACKGROUND: #000; POSITION: absolute; MARGIN-LEFT: -480px; LEFT: 50%; TOP: 365px
+}
+.bx-controls-direction A {
+	CURSOR: pointer; TEXT-DECORATION: none; HEIGHT: 50px; COLOR: #fff; DISPLAY: block; TEXT-INDENT: -9999px
+}
+.bx-prev {
+	BACKGROUND: url(../images/up.jpg) no-repeat 0px 0px
+}
+.bx-next {
+	BACKGROUND: url(../images/down.jpg) no-repeat 0px 0px
+}
+.bx-prev:hover {
+	BACKGROUND: url(../images/up-hover.jpg) no-repeat 0px 0px
+}
+.bx-next:hover {
+	BACKGROUND: url(../images/down-hover.jpg) no-repeat 0px 0px
+}
+.logo {
+	CURSOR: default; HEIGHT: 57px; 
+	WIDTH: 172px; 
+	/* BACKGROUND: url(../images/logo.png) no-repeat 26px 8px; */ 
+	FLOAT: left; 
+	/* TEXT-INDENT: -9999px */
+	font-size: 20px;
+	z-index: 99;
+}
+.nav-con {
+	HEIGHT: 57px; WIDTH: 100%; BACKGROUND: url(../images/nav_bg.png) repeat-x 0px 0px; POSITION: absolute; Z-INDEX: 15; MARGIN-TOP: -28px; TOP: 50%
+}
+.nav-bg {
+	HEIGHT: 57px; 
+	WIDTH: 100%; 
+	POSITION: absolute; 
+	LEFT: 0px; FILTER: alpha(opacity=80); 
+	Z-INDEX: -1; 
+	opacity: .8}
+.nav-holder {
+	HEIGHT: 57px; 
+	WIDTH: 1028px; BACKGROUND: url(../images/9_04.png) no-repeat 0px 0px; MARGIN: 0px auto; _margin: 0
+}
+.nav {
+	FLOAT: left
+}
+.nav LI {
+	OVERFLOW: hidden; HEIGHT: 57px; WIDTH: 170px; POSITION: relative; ZOOM: 1; FLOAT: left; COLOR: #fff; TEXT-ALIGN: center; LINE-HEIGHT: 57px; PADDING-RIGHT: 1px
+}
+.nav LI A {
+	FONT-SIZE: 20px; TEXT-DECORATION: none; 
+	FONT-FAMILY: "Microsoft Yahei"; COLOR: #000; DISPLAY: block
+}
+.en {
+	FONT-FAMILY: arial
+}
+.nav LI A.en {
+	FONT-SIZE: 20px; FONT-FAMILY: arial
+}
+.nav LI SPAN {
+	CURSOR: pointer; HEIGHT: 100%; WIDTH: 100%; COLOR: #fff; MARGIN-TOP: 50px; DISPLAY: block
+}
+.blue {
+	BACKGROUND: #029fd4
+}
+.green {
+	BACKGROUND: #8dc919
+}
+.yellow {
+	BACKGROUND: #90C5A9;}
+.purple {
+	BACKGROUND: #900093
+}
+.nav-con .oprate {
+	FONT-SIZE: 12px; WIDTH: 104px; FLOAT: right; TEXT-ALIGN: center
+}
+.nav-con .oprate LI.item {
+	HEIGHT: 57px; LINE-HEIGHT: 57px
+}
+.nav-con .oprate A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; COLOR: #000; TEXT-ALIGN: center; LINE-HEIGHT: 57px
+}
+.nav-con .oprate A:hover {
+	TEXT-DECORATION: underline
+}
+.nav-con .oprate LI.item A:hover {
+	TEXT-DECORATION: underline
+}
+.pull-down-menu {
+	
+}
+.pull-down-menu .holder {
+	CURSOR: pointer; HEIGHT: 57px; WIDTH: 10px; BACKGROUND: url(../images/sprite_bg.png) no-repeat -130px -104px; MARGIN-LEFT: 6px; DISPLAY: inline-block
+}
+.pull-down-menu .up.holder {
+	BACKGROUND-POSITION: -140px -104px
+}
+.pull-down-menu .list {
+	MARGIN-LEFT: -1px; MARGIN-TOP: -1px; DISPLAY: none; _width: 105px
+}
+.pull-down-menu .list LI {
+	CURSOR: pointer; HEIGHT: 29px; BORDER-RIGHT: #fff 1px solid; BACKGROUND: url(../images/9_11.png) no-repeat -1px -1px; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1px solid; LINE-HEIGHT: 30px
+}
+.pull-down-menu .list LI:hover {
+	BACKGROUND: url(../images/9_09.png) no-repeat -1px -1px
+}
+.pull-down-menu .list A {
+	FONT-SIZE: 12px; LINE-HEIGHT: 30px
+}
+.pull-down-menu .list A:hover {
+	TEXT-DECORATION: none
+}
+.search .searchMenu .searchSelected {
+	BACKGROUND-IMAGE: url(../images/sprite_bg.png); BACKGROUND-REPEAT: no-repeat
+}
+.search .searchMenu .searchSelectedUp {
+	BACKGROUND-IMAGE: url(../images/sprite_bg.png); BACKGROUND-REPEAT: no-repeat
+}
+.searchBtn BUTTON {
+	BACKGROUND-IMAGE: url(../images/sprite_bg.png); BACKGROUND-REPEAT: no-repeat
+}
+.searchBtn BUTTON {
+	BACKGROUND-POSITION: -10px -513px
+}
+.searchBtn BUTTON:active {
+	BACKGROUND-POSITION: -10px -560px
+}
+.search {
+	HEIGHT: 30px; WIDTH: 960px; POSITION: absolute; FLOAT: left; MARGIN-LEFT: -480px; LEFT: 50%; Z-INDEX: 10; TOP: 289px
+}
+.searchTxt {
+	BORDER-TOP: #6a6a6a 1px solid; HEIGHT: 30px; BORDER-RIGHT: #6a6a6a 1px solid; WIDTH: 399px; BACKGROUND: #fff; BORDER-BOTTOM: #6a6a6a 1px solid; POSITION: relative; FLOAT: left; BORDER-LEFT: #6a6a6a 1px solid; Z-INDEX: 20
+}
+.searchTxtHover {
+	BORDER-TOP: #7b7b7b 1px solid; HEIGHT: 30px; BORDER-RIGHT: #7b7b7b 1px solid; WIDTH: 399px; BACKGROUND: #fff; BORDER-BOTTOM: #7b7b7b 1px solid; POSITION: relative; FLOAT: left; BORDER-LEFT: #7b7b7b 1px solid; Z-INDEX: 20
+}
+.search .searchMenu {
+	FLOAT: left
+}
+.search .searchMenu .searchSelected {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 30px; WIDTH: 50px; COLOR: #000; TEXT-ALIGN: left; PADDING-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.search .searchMenu .searchSelectedUp {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 30px; WIDTH: 50px; COLOR: #000; TEXT-ALIGN: left; PADDING-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.search .searchMenu .searchSelected {
+	BACKGROUND-POSITION: -26px -70px
+}
+.search .searchMenu .searchSelectedUp {
+	BACKGROUND-POSITION: -26px -26px
+}
+.search .searchMenu .searchTab {
+	BORDER-TOP: 0px; HEIGHT: 210px; BORDER-RIGHT: #7b7b7b 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #7b7b7b 1px solid; POSITION: absolute; LEFT: -1px; BORDER-LEFT: #7b7b7b 1px solid; Z-INDEX: 20; DISPLAY: none; TOP: 30px
+}
+.search .searchMenu .searchTab LI {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 30px; COLOR: #555; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 12px; LINE-HEIGHT: 30px; PADDING-RIGHT: 20px
+}
+.search .searchMenu .searchTab LI.selected {
+	BACKGROUND: #eaeaea; COLOR: #333
+}
+.search .searchMenu .searchTab LI:hover {
+	BACKGROUND: #eaeaea; COLOR: #333
+}
+.search INPUT {
+	BORDER-TOP: 0px; HEIGHT: 22px; BORDER-RIGHT: 0px; WIDTH: 300px; BACKGROUND: #fff; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #333; OUTLINE-WIDTH: medium; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; FONT: 14px/22px "arial", "ËÎÌå"; OUTLINE-STYLE: none; PADDING-LEFT: 8px; MARGIN: 0px; BORDER-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 8px
+}
+.searchBtn {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+.searchBtn BUTTON {
+	CURSOR: pointer; FONT-SIZE: 14px; BORDER-TOP: 0px; HEIGHT: 32px; FONT-FAMILY: arial; BORDER-RIGHT: 0px; WIDTH: 95px; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #000; BORDER-LEFT: 0px
+}
+.searchEn .searchMenu .searchSelected {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 30px; WIDTH: 90px; COLOR: #000; TEXT-ALIGN: left; PADDING-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.searchEn .searchMenu .searchSelectedUp {
+	CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 30px; WIDTH: 90px; COLOR: #000; TEXT-ALIGN: left; PADDING-LEFT: 12px; LINE-HEIGHT: 30px
+}
+.searchEn .searchMenu .searchSelected {
+	BACKGROUND-POSITION: 16px -70px
+}
+.searchEn .searchMenu .searchSelectedUp {
+	BACKGROUND-POSITION: 16px -26px
+}
+.searchEn INPUT {
+	WIDTH: 280px
+}
+HTML {
+	OVERFLOW: auto
+}
+BODY {
+	OVERFLOW: auto
+}
+.viewport {
+	OVERFLOW: hidden; HEIGHT: 100%; WIDTH: 100%; POSITION: absolute; TOP: 1000px
+}
+.viewport_index {
+	TOP: 0px
+}
+.viewport_school {
+	
+}
+.viewport_practice {
+	
+}
+.viewport_overseas {
+	FONT-FAMILY: arial
+}
+.viewport_main {
+	POSITION: absolute; MARGIN: 270px 0px 0px 360px; Z-INDEX: 9
+}
+.slide-button-con {
+	WIDTH: 70px; BACKGROUND: #000
+}
+.slide-button {
+	CURSOR: pointer; TEXT-DECORATION: none; HEIGHT: 50px; BACKGROUND: #000; COLOR: #fff; DISPLAY: block; TEXT-INDENT: -9999px
+}
+.slide-button:hover {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+.slide-button-up {
+	BACKGROUND: url(../images/up.png) no-repeat 0px 0px
+}
+.slide-button-down {
+	BACKGROUND: url(../images/down.png) no-repeat 0px 2px
+}
+.special {
+	OVERFLOW: hidden; WIDTH: 660px; POSITION: absolute; MARGIN-LEFT: -410px; LEFT: 50%; FILTER: alpha(opacity=50); TOP: 365px; opacity: .5
+}
+.special DIV {
+	BACKGROUND: #000; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px
+}
+.special .t {
+	OVERFLOW: hidden; FLOAT: left; CLEAR: both
+}
+.special .c {
+	OVERFLOW: hidden; FLOAT: left; CLEAR: both
+}
+.special .t P {
+	FONT-SIZE: 14px; HEIGHT: 38px; FONT-WEIGHT: bolder; LINE-HEIGHT: 36px
+}
+.special .c P {
+	HEIGHT: 62px; LINE-HEIGHT: 20px
+}
+.special P {
+	WHITE-SPACE: nowrap; DISPLAY: inline
+}
+.special .t {
+	MAX-WIDTH: 360px; HEIGHT: 36px
+}
+.special .c {
+	MAX-WIDTH: 660px; HEIGHT: 64px
+}
+.footer {
+	HEIGHT: 30px; WIDTH: 100%; BACKGROUND: #000; POSITION: fixed; COLOR: #cccccc; TEXT-ALIGN: center; Z-INDEX: 10; LINE-HEIGHT: 30px; BOTTOM: 1px; opacity: .5
+}
+.footer A {
+	COLOR: #ccc
+}
+.hide {
+	DISPLAY: none
+}
+.special .t-animate {
+	-moz-animation-name: t-animate; -moz-animation-duration: 2s; -moz-animation-iteration-count: 1; -moz-animation-timing-function: ease-out
+}
+.special .c-animate {
+	-moz-animation-name: c-animate; -moz-animation-duration: 3s; -moz-animation-iteration-count: 1; -moz-animation-timing-function: ease-out
+}
+.thumbOuter {
+	WIDTH: 960px; POSITION: absolute; MARGIN-LEFT: 50%; BOTTOM: 50px
+}
+.thumb {
+	WIDTH: 100%; BACKGROUND: none transparent scroll repeat 0% 0%; POSITION: absolute; TEXT-ALIGN: right; MARGIN-LEFT: -480px; BOTTOM: 0px
+}
+.thumb LI {
+	BACKGROUND: url(../images/t_graybg.png) left top; ZOOM: 1; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 6px; MARGIN-LEFT: 7px; DISPLAY: inline-block; PADDING-RIGHT: 6px
+}
+.thumb IMG {
+	HEIGHT: 56px; WIDTH: 56px
+}

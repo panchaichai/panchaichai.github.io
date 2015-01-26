@@ -1,0 +1,46 @@
+#hrs_main{background:none;}
+#hrs_side{float:left;width:190px;background:#fff;}
+.topFixed{ position:fixed; top:56px;}
+#hrs_mainContent{float:right;width:790px;min-height:557px;background:#fff;}
+#hrs_side h3{height:39px;line-height:39px;padding-left:20px;background:#029fd3;font-size:14px;color:#ffffff;border-bottom:1px solid #dfdfdf;}
+#hrs_resumeOuter{margin:0 20px;}
+.hrs_tabOuter{width:627px;margin:44px auto 25px;}
+.hrs_tabContent{min-height:230px;border:1px solid #d4d4d4;margin-top:-1px;padding-bottom:25px;}
+.hrs_tabOuter .hrs_formHorizontal{padding-top:0;}
+#hrs_resumeOuter .hrs_submitGroup .hrs_submitBtnEn{letter-spacing:normal;padding-left:0px;}/* by dayee */
+#hrs_resumeOuter .hrs_submitBtn{width:88px;height:32px;line-height:32px;text-align:center;background:url(../images/sec_bg.png) no-repeat left top;border:1px solid #ff6901;border-radius:2px;letter-spacing:1em;font-size:14px;font-weight:bold;color:#ffffff;cursor:pointer;box-shadow:none;padding-left:15px;+padding-left:0;}
+#hrs_resumeOuter .hrs_submitBtn:hover,#hrs_rBuild_standard .hrs_submitBtn:hover{background-position:left -294px;}
+#hrs_rBuild_standard .hrs_formHorizontal .hrs_submitBtnEn{letter-spacing:normal;}/* by dayee */
+#hrs_rBuild_standard .hrs_submitBtn{display:inline-block;*display:inline;zoom:1;vertical-align:middle;width:264px;height:32px;line-height:32px;text-align:center;background:url(../images/sec_bg.png) no-repeat left top;border:1px solid #ff6901;border-radius:2px;letter-spacing:1em;font-size:14px;font-weight:bold;color:#ffffff;cursor:pointer;box-shadow:none;margin:75px 0 0 180px;}
+#hrs_rBuild_standard .hrs_formTips{font-size:12px;color:#666666;margin-top:12px;text-align:center;line-height:20px;}/* by dayee */
+#hrs_newResumeOuter .hrs_tabContent{min-height:252px;}
+#hrs_rBuild_template .hrs_formTips,#hrs_rBuild_file .hrs_formTips{font-size:12px;color:#666666;margin-top:12px;margin-left:100px;line-height:20px;}
+#hrs_rBuild_file,#hrs_rBuild_template{display:none;}
+#hrs_myResumeList td span{display:inline-block;*display:inline;zoom:1;vertical-align:middle;margin-left:5px;width:40px;text-align:left;}
+#hrs_myResumeList td a.hrs_operation{margin-right:10px;}
+#hrs_resumeApplyList tr td:first-child{padding-left:28px;background:url(../images/sec_bg.png) no-repeat 10px -86px;}
+.hrs_more{text-align:right;height:50px;line-height:50px;}
+#hrs_editpwForm .hrs_formTips{margin-left:150px;font-size:12px;color:#999999;line-height:18px;}
+.hrs_topBorder{padding:10px 0 20px;border-top:5px solid #029fd3;}
+.hrs_table_striped{width:100%;margin-top:12px;border:none;}.hrs_table_striped tr{height:32px;line-height:32px;}
+.hrs_table_striped thead tr{background:#e6f7fe;}
+.hrs_table_striped th{text-align:left;color:#333333;}
+.hrs_table_striped th:first-child{padding-left:20px;}
+.hrs_table_striped tbody tr:nth-child(even){background:#f3f3f3;}
+.hrs_table_striped tbody a{color:#333333;}
+.hrs_table_striped tbody a:hover{color:#029fd3;text-decoration:underline;}
+.hrs_table_striped tbody a.hrs_operation{color:#029fd3;}
+.hrs_grayBorderTitle{position:relative ;}
+.hrs_grayBorderTitle a{position:absolute;right:0;font-size:12px;font-weight:normal;color:#029fd3;}
+.hrs_grayBorderTitle a span{font-family:'宋体';}
+#hrs_buildEnglishResume{height:42px;line-height:42px;border-top:1px solid #e5e5e5;}
+#hrs_buildEnglishResume a{font-size:14px;font-weight:bold;color:#029fd3;}
+#hrs_buildEnglishResume a span{font-family:'宋体';}
+
+.hrs_content dl{ line-height: 24px; margin:10px 0 25px;  }
+.hrs_content dl dt{font-weight:700; font-size: 12px;}
+.hrs_content dl dd{text-indent: 2em;}
+
+/* by dayee */
+#hrs_side .langToCn {float:right; text-decoration:underline;color:#ffffff; padding-right: 10px;}
+#hrs_side .langToEn {float:right; text-decoration:underline;color:#ffffff; padding-right: 10px;}

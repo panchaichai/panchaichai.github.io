@@ -1,0 +1,66 @@
+.hrs_tab{ height:57px; border-bottom:1px solid #e5e5e5;}
+.hrs_tab li{ width:auto; background: #fff; padding:1px; border-right:1px solid #e5e5e5;}
+.hrs_tab li:hover{ cursor: pointer;}
+.hrs_tab li.first-child{ padding-left:0;}
+.hrs_tab li.last-child{ border-right:none;}
+.hrs_tab li span{display:block; width:245px; line-height: 55px; text-align: center; font-size:14px; font-weight: bold; color:#000; background: #f7f7f7; }
+.hrs_tab li.current{ padding:0; }
+.hrs_tab li.current span{ width:247px; height:53px; border-top:5px solid #029fd3; background:#fff; line-height:48px; }
+.hrs_tab li.first-child.current span{ width:246px; }
+
+.hrs_aboutContent{ padding:20px 18px 65px; overflow:hidden; }
+
+/*公司介绍*/
+.hrs_bigImg{ margin:0 1px; }
+.hrs_imgBorder{border:1px solid #c2dffb; margin:0;}
+.hrs_aboutText p{ line-height: 22px; color:#333; font-size:14px; margin:15px 0 25px; }
+
+/*百度生活*/
+#hrs_slider{ width:953px; height:490px; }
+.hrs_lifeContent{ margin-top:30px; overflow: hidden; }
+.hrs_lifeLeft{float:left;width:460px;}
+.hrs_lifeRight{float:right; width:465px; }
+.hrs_lifeItem{ overflow: hidden; margin-bottom: 20px; }
+.hrs_lifeItemImg{ float: left; width:175px; height:122px; }
+.hrs_lifeItem div{ float:left; margin-left:14px; width:270px; }
+.hrs_lifeItem div h6{ font-size:12px; color:#333; line-height: 22px; margin:2px 0; }
+.hrs_lifeItem div h6 a{ color:#333; }
+.hrs_lifeItem div p{ font-size:12px; color:#606060; line-height: 18px;}
+
+.hrs_video{ overflow: hidden; margin-bottom:20px;}
+.hrs_video div{ width:218px; height:124px; cursor:pointer;}
+.hrs_videoLeft{ float:left;}
+.hrs_videoRight{ float:right;}
+.hrs_weibo{ width:463px; height:714px; }
+.hrs_video div a{ display:block; position:relative;}
+.hrs_video div span{ position:absolute; top:50%; left:50%; margin-top:-28px; margin-left:-28px; display:block; width:56px; height:56px; background:url(../images/about/video.png) no-repeat left top; cursor:pointer; }
+.hrs_video div a:hover span{background:url(../images/about/video-hover.png) no-repeat left top;}
+
+.hrs_cultureOuter{ padding:0 24px 0 32px; }
+.hrs_manage{ float:left; width:457px; }
+.hrs_culture{ float:right; }
+
+.hrs_salaryOuter{ position:relative; height:550px; background:url(../images/about/salary.png) no-repeat 37px top;}
+.hrs_salaryOuter ul{ position:absolute; width:296px; }
+.hrs_salaryOuter li{ font-size:12px; color:#333; line-height: 24px; }
+.hrs_salaryOuter li span{ font-weight:bold;}
+.hrs_lt{ left:50px; top:81px;  }
+.hrs_rt{ left:637px; top:81px;  }
+.hrs_salaryOuter ul.hrs_lb{ width:320px; left:44px; top:387px;  }
+.hrs_rb{ left:637px; top:420px;  }
+
+#hrs_aboutCulture,#hrs_aboutLife,#hrs_aboutSalary{ display: none;  }
+
+#hrs_slider {width:951px; height:490px; overflow:hidden; position:relative; margin:0 1px;}
+#hrs_slider ul {height:380px; position:absolute;}
+#hrs_slider ul li {float:left; width:951px; height:490px; overflow:hidden; position:relative; background:#000;}
+#hrs_slider ul li div {position:absolute; overflow:hidden;}
+#hrs_slider .btnBg {position:absolute; width:951px; height:20px; left:0; bottom:0; background:#000;}
+#hrs_slider .btn {position:absolute; width:931px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:right;}
+#hrs_slider .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+#hrs_slider .btn span.on {background:#fff;}
+#hrs_slider .preNext {width:45px; height:100px; position:absolute; top:195px; background:url(../images/about/sprite.png) no-repeat 0 0; cursor:pointer;}
+#hrs_slider .pre {left:0;}
+#hrs_slider .next {right:0; background-position:right top;}
+
+#SLB-Contenedor{background-color: #ccc;}
