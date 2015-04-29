@@ -1,0 +1,18 @@
+#slideshow_wrapper {
+	OVERFLOW: hidden; HEIGHT: 286px; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #121212
+}
+#slideshow_footbar {
+	HEIGHT: 30px; WIDTH: 100%; POSITION: absolute; Z-INDEX: 5; BOTTOM: 0px
+}
+#slideshow_photo {
+	CURSOR: pointer; HEIGHT: 100%; WIDTH: 100%; POSITION: absolute
+}
+#slideshow_photo A {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; POSITION: absolute; LEFT: 0px; MARGIN: 0px; Z-INDEX: 1; DISPLAY: block; TOP: 0px; BORDER-TOP-WIDTH: 0px
+}
+#slideshow_footbar .slideshow-bt {
+	FONT-SIZE: 0px; HEIGHT: 10px; WIDTH: 10px; FLOAT: right; MARGIN: 10px 10px 0px 0px; DISPLAY: inline; BACKGROUND-COLOR: #d2d3d4
+}
+#slideshow_footbar .bt-on {
+	BACKGROUND-COLOR: #30b1eb
+}

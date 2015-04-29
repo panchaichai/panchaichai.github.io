@@ -1,0 +1,32 @@
+.picture {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.intro {
+    float: left;
+    /* display: block; */
+    width: 50%;
+    height: 271px;
+    position: relative;
+}
+
+a#ask1 {
+    background: url(../img/final.bmp) no-repeat;  cursor: pointer;  width: 100px;  height: 42px;  display: block;
+}
+
+a#ask1:hover {
+    background: url(../img/final2.bmp) no-repeat;
+}
+
+a#intro1 {
+    background: url(../img/intro2.bmp) no-repeat;  cursor: pointer;  width: 100px;  height: 42px;  display: block;
+}
+
+a#intro1:hover {
+    background: url(../img/intro3.bmp) no-repeat;
+}
+
+dd.left {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,20 @@
+body, div, ul, li{margin:0;padding:0;}
+body{font-family:"Microsoft Yahei", Arial, Helvetica, sans-serif;color:#333333;line-height:25px;font-size:14px;}
+a:link, a:visited{text-decoration:none;color:#333333;}
+a:hover{text-decoration:underline;color:#08A5E0;text-decoration:none;}
+ul, ul li{list-style-type:none;}
+.cl{zoom:1;}
+/*ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨*/
+.col960{width:960px;margin:auto;}
+.navbg{height:40px;width: 100%;background: #3399cc;box-shadow:1px 1px 7px #999;/* position:absolute; */z-index:99;left:0;margin:0 auto;}
+#navul li{float:left;margin-right:1px;width: 100px;height:40px;position:relative;text-align:center;line-height:40px;}
+#navul li.navhome{text-align:left;padding:0 0px 0 40px;width:60px;}
+#navul li a:link, #navul li a:visited{color:#FFFFFF;}
+#navul li ul{display:none;position:absolute;z-index:10000;top:38px;/* left:-1px; */background: #3399cc;/* border:#004E6C 1px solid; */border-bottom:none;opacity: 1;/* transition: height 2s; */}
+#navul li ul li{display:block;width: 98px;float:none;margin-right:0px;height:28px;position:relative;line-height:28px;/* border-bottom: #588B9E 1px solid; */font-size: 12px;opacity: 1;transition: height 2s;}
+#navul li.navmoon{background:#006D96;/* border:#004E6C 1px solid; */width:98px;height:38px;line-height:38px;}
+#navul li.navmoon a{color:#FFFFFF;}
+#navul li.navhome a:hover{color:#FCFF00;}
+#navul li.navmoon ul{display:block;}
+#navul li.navmoon ul a{display:block;width:98px;height:28px;line-height:28px;}
+#navul li.navmoon ul a:hover{background: #cccccc;}

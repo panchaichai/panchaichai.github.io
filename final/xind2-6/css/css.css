@@ -1,0 +1,100 @@
+STYLE typetextcssA:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+td {
+	font-size: 12px;
+}
+.black_big {
+	font-size: 14px;
+}
+.write {
+	color: #FFFFFF;
+}
+.red_small {
+	color: #FF0000;
+}
+.red_big {
+	font-size: 14px;
+	color: #FF0000;
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #EB6400; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+a:active {
+	COLOR: #464646; text-decoration: none;
+}
+A.small:hover {
+    color: #FF0000;
+	text-decoration: none;
+}
+A.big:link {
+	font-size: 14px;
+	text-decoration: underline;
+}
+A.big:hover {
+	font-size: 14px;
+	text-decoration: underline;
+}
+A.big:visited {
+	font-size: 14px;
+	text-decoration: underline;
+}
+A.writelink:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.writelink:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+A.writelink:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.input {
+	border: 1px solid #000000;
+}
+.dark_blue {
+	color: #000063;
+}
+A.red:link {
+    color: #FF0000;
+}
+A.red:hover {
+    color: #FF0000;
+	text-decoration: none;
+}
+A.red:visited {
+    color: #FF0000;
+}
+A.p2:link {
+	COLOR: #4d4d4d; FONT-SIZE: 12px
+}
+A.p2:visited {
+	COLOR: #4d4d4d; FONT-SIZE: 12px
+}
+A.p2:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px
+}
+A.list:link {
+	COLOR: #2b3b74; FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+A.list:visited {
+	COLOR: #2b3b74; FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+A.list:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+A.t:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.t:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+
+
